@@ -52,7 +52,6 @@ public class frmMenu extends JFrame {
 		{
 			
 		}
-		
 		setTitle(" Seguros - Menu Principal     ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 585, 572);
@@ -103,7 +102,7 @@ public class frmMenu extends JFrame {
 		desktopPane.setBackground(Color.WHITE);
 		getContentPane().add(desktopPane, BorderLayout.CENTER);
 		desktopPane.setLayout(null);
-		
+		//Comentario
 		JLabel label = new JLabel("");
 		label.setBounds(24, 60, 46, 14);
 		
